@@ -1,0 +1,175 @@
+html {
+  background: url(https://i.pinimg.com/474x/12/25/ec/1225ec674dbd1714711ed257bfc98953.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+ }
+  #pagewrap{font: 16px Helvetica, Sans-Serif;
+line-height: 24px;
+padding: 0;
+width: 800px;
+margin: 40px auto 60px;
+border-radius: ;}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex:1;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.blue-column {
+  height: 50px;
+  flex: 1;
+  flex-basis: 100px;
+
+}
+
+.green-column {
+  height: 100%;
+  justify-content: flex-end;
+  flex: 1;
+  flex-basis: 100px;
+  padding-top: 2%;
+
+
+}
+.red-column {
+  height: 100%;
+  justify-content: flex-end;
+  align-self: stretch;
+width: 100%;
+flex-basis: 200px;
+flex:2;
+}
+
+img {
+    border: #fff solid 4px;
+    padding: 1px;
+    margin: 10px 0px 0px 0px;
+  width:60%;
+  border:4px, solid,  black;
+  border-radius: 4px;
+  transition: 2s ease-out 100ms;
+  transition-property: margin-right;
+
+ 
+  }
+  
+ img:hover {
+    background-color: #FF1493;
+    transform: scale(1.5);
+  }
+
+h1
+{
+  border-bottom: 1px solid #999;
+padding:0 2em 0em ;}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;}
+
+.one-edge-shadowe {
+	border-bottom:2px solid rgb(172, 58, 58);
+}
+
+.intro{font: 16px Helvetica, Sans-Serif;
+font-family: Georgia, Serif;
+font-style: italic;
+color: rgb(165, 98, 98);
+}
+
+/*
+otherinfo{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}*/
+.edu{font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #444;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  
+}
+.educ-p{font: 1px Helvetica, Sans-Serif;
+font-size: 15px;
+}
+.clear{
+  font: 16px Helvetica, Sans-Serif;
+ 
+}
+
+
+.headings{font-weight:bold;}
+
+.sub{font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: red,grey;
+    font-weight: normal;
+}
+.bord{
+    border-right: 1px solid #444;
+}
+.educ{
+  font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-right: 1px solid #444;
+  
+}
+*{box-sizing:border-box;}
+Container {display:flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+/* Container for skill bars */
+container1 
+{ flex-direction: column;
+width: 100%;
+padding-right: 1%;}
+container2
+{flex-direction:row;
+width: 100%;}
+.containers {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  width:200%;
+}
+
+.english {width: 90%; background-color: #04AA6D;  flex-direction: column;
+} /* Green */
+.swedish {width: 80%; background-color: #2196F3;  flex-direction: column;
+} /* Blue */
+.html {width: 65%; background-color: #f44336;flex-direction: row;} /* Red */
+.css{width: 60%; background-color: #808080;flex-direction: row;} /* Dark Grey 
